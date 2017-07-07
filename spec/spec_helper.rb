@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "auto/pinger"
+require "autopinger"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
