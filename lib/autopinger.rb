@@ -10,10 +10,10 @@ class AutoPinger
   end
 
   def run
-    user_input = IO.prompt_text("Enter a phone number")
+    user_input = IO.prompt_text("Enter a text message")
     while true
-      @pinger.make_call(user_input)
-      sleep(60)
+      @pinger.send_sms(user_input)
+      sleep(2)
     end
   end
 end
